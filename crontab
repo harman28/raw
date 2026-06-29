@@ -1,0 +1,1 @@
+3 * * * * msg=$(curl -s https://raw.githubusercontent.com/harman28/raw/main/msg.txt) && osascript -e "display dialog \"$msg\" buttons {\"Yes okay I love you\"}"
